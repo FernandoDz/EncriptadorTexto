@@ -34,7 +34,7 @@ body {
   flex-grow: 1;
   outline: none;
   text-align: center;
-  color: #0A3871;
+  color:#2a8c4a;
   font-size: clamp(20px, 5px + 2vw, 32px);
   background-color: transparent;
 }
@@ -100,7 +100,7 @@ body {
   margin: 5%;
   box-shadow: 1vw 1vw 1vw rgba(0, 0, 0, 0.15);
   transform: translateX(-15%);
-  background: #64c27b;
+  background: white;
 }
 .container .output-section .output-section__noInput {
   display: flex;
@@ -135,28 +135,18 @@ body {
   background-color: transparent;
   color: black;
 }
-.container .output-section .output-section__noInput .Copybutton {
-  position: absolute;
-  border-radius: 1vmax;
-  overflow: hidden;
-  background-color: #0A3871;
-  color: #0A3871;
-  width: 18vw;
-  min-width: 150px;
-  max-width: 328px;
-  height: 4vw;
-  min-height: 45px;
-  max-height: 64px;
-  border: 1px solid #0A3871;
+.redes{
   cursor: pointer;
-  font-size: clamp(15px, 5px + 0.8vw, 20px);
-  font-family: "Poppins", sans-serif;
-  background-color: transparent;
-  bottom: 2%;
-  left: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-@media screen and (max-width: 768px) {
+.redes .icono{
+  margin: 1%;
+  font-size: 20px;
+}
+@media screen and (max-width: 768px)  and ( max-height :1174px){
   .container {
     display: grid;
     grid-template-columns: 100%;
@@ -240,30 +230,10 @@ body {
     resize: none;
     border: none;
     background-color: transparent;
-    color: black;
-  }
-  .container .output-section .output-section__noInput .Copiar {
-    position: absolute;
-    border-radius: 1vmax;
-    overflow: hidden;
-    background-color: #0A3871;
-    color: #0A3871;
-    width: 18vw;
-    min-width: 150px;
-    max-width: 328px;
-    height: 4vw;
-    min-height: 45px;
-    max-height: 64px;
-    border: 1px solid #0A3871;
-    cursor: pointer;
-    font-size: clamp(15px, 5px + 0.8vw, 20px);
-    font-family: "Poppins", sans-serif;
-    background-color: transparent;
-    bottom: 2%;
-    left: 30%;
+    color:#64c27b;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (max-height :933px) {
   .container {
     display: grid;
     grid-template-columns: 100%;
